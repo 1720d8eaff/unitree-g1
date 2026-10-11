@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+demo-status.json
+*.tmp
+.env
+.env.*
+artifacts/
+work/g1_objectcentric/development-results/
+work/box_lift/progress.json
+work/box_transfer/progress.json
+work/box_lift/training.csv
+work/box_transfer/training.csv
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+Unitree G1 Object-centric Bimanual Simulation
+
+The G1 robot kinematics and visual meshes are derived from:
+https://github.com/unitreerobotics/unitree_mujoco
+Commit: 1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d
+Original model: unitree_robots/g1/g1_29dof.xml
+Copyright (c) 2016-2024 HangZhou YuShu TECHNOLOGY CO.,LTD. ("Unitree Robotics")
+License: BSD 3-Clause; retained in third_party/UNITREE_LICENSE.txt.
+
+Modifications include fixed body/legs, simplified arm collision geometry,
+contact palms, tabletop manipulation scenes and reduced visual meshes.
+The upstream license applies to the derived XML, STL and compiled MJB assets.
+
+New control, evaluation, GUI and export code is distributed under the root
+BSD 3-Clause LICENSE. This is an independent project without affiliation
+with or endorsement by Unitree Robotics or NVIDIA.

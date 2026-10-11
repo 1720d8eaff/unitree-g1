@@ -1,0 +1,9 @@
+# Preserve benchmark source/model hashes on all platforms.
+* -text
+*.mjb binary
+*.stl binary
+*.png binary
+*.mp4 binary
+*.npz binary
+*.parquet binary
+*.gz binary

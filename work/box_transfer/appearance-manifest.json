@@ -1,0 +1,262 @@
+{
+  "source": "work\\unitree_mujoco\\unitree_robots\\g1\\g1_29dof.xml",
+  "source_faces": 370714,
+  "output_faces": 130037,
+  "physics_sha256": "447e1d5337e884e8a6415253b22da48423ce9f5d953e6325887638c33aa1c7d1",
+  "appearance_sha256": "5332dae153a6eaed144a97e976eff764e8bb5272c8f829d539bb8db6a78efcf6",
+  "appearance_mjb_bytes": 31735021,
+  "meshes": [
+    {
+      "name": "pelvis",
+      "source_faces": 21216,
+      "output_faces": 3818,
+      "bounds_drift_m": 0.0003238284771358516,
+      "source_sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31"
+    },
+    {
+      "name": "pelvis_contour_link",
+      "source_faces": 36102,
+      "output_faces": 36102,
+      "bounds_drift_m": 0.0,
+      "source_sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420"
+    },
+    {
+      "name": "left_hip_pitch_link",
+      "source_faces": 3632,
+      "output_faces": 652,
+      "bounds_drift_m": 0.000722017999291294,
+      "source_sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
+    },
+    {
+      "name": "left_hip_roll_link",
+      "source_faces": 3842,
+      "output_faces": 690,
+      "bounds_drift_m": 0.0013474922004440074,
+      "source_sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
+    },
+    {
+      "name": "left_hip_yaw_link",
+      "source_faces": 5924,
+      "output_faces": 1066,
+      "bounds_drift_m": 0.0003710578302544565,
+      "source_sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
+    },
+    {
+      "name": "left_knee_link",
+      "source_faces": 17096,
+      "output_faces": 3076,
+      "bounds_drift_m": 0.0011283971208115307,
+      "source_sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
+    },
+    {
+      "name": "left_ankle_pitch_link",
+      "source_faces": 1422,
+      "output_faces": 300,
+      "bounds_drift_m": 0.0008221008820855956,
+      "source_sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
+    },
+    {
+      "name": "left_ankle_roll_link",
+      "source_faces": 13066,
+      "output_faces": 2351,
+      "bounds_drift_m": 0.0008823399792065867,
+      "source_sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
+    },
+    {
+      "name": "right_hip_pitch_link",
+      "source_faces": 3624,
+      "output_faces": 652,
+      "bounds_drift_m": 0.00020036312500158748,
+      "source_sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
+    },
+    {
+      "name": "right_hip_roll_link",
+      "source_faces": 3852,
+      "output_faces": 692,
+      "bounds_drift_m": 0.0008532724883766468,
+      "source_sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
+    },
+    {
+      "name": "right_hip_yaw_link",
+      "source_faces": 5924,
+      "output_faces": 5924,
+      "bounds_drift_m": 0.0,
+      "source_sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
+    },
+    {
+      "name": "right_knee_link",
+      "source_faces": 17044,
+      "output_faces": 3066,
+      "bounds_drift_m": 0.002561354485416549,
+      "source_sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
+    },
+    {
+      "name": "right_ankle_pitch_link",
+      "source_faces": 1422,
+      "output_faces": 300,
+      "bounds_drift_m": 0.00044562148941558206,
+      "source_sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
+    },
+    {
+      "name": "right_ankle_roll_link",
+      "source_faces": 13074,
+      "output_faces": 2352,
+      "bounds_drift_m": 0.0002747119712743773,
+      "source_sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
+    },
+    {
+      "name": "waist_yaw_link",
+      "source_faces": 6724,
+      "output_faces": 1210,
+      "bounds_drift_m": 0.0016024715344768875,
+      "source_sha256": "2883f20e03f09b669b5b4ce10677ee6b5191c0934b584d7cbaef2d0662856ffb"
+    },
+    {
+      "name": "waist_roll_link",
+      "source_faces": 482,
+      "output_faces": 300,
+      "bounds_drift_m": 0.00011923487774765859,
+      "source_sha256": "34f0aa73f41131230be4d25876c944fdf6c24d62553f199ff8b980c15e8913df"
+    },
+    {
+      "name": "torso_link",
+      "source_faces": 44658,
+      "output_faces": 8037,
+      "bounds_drift_m": 0.0013526301514412004,
+      "source_sha256": "e96d023f0368a4e3450b86ca5d4f10227d8141156a373e7da8cb3c93266523e0"
+    },
+    {
+      "name": "logo_link",
+      "source_faces": 4866,
+      "output_faces": 4866,
+      "bounds_drift_m": 0.0,
+      "source_sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b"
+    },
+    {
+      "name": "head_link",
+      "source_faces": 6750,
+      "output_faces": 3374,
+      "bounds_drift_m": 0.0002075813501899726,
+      "source_sha256": "d297328b3569fc85074355e76cba6c889d19de5361224bcd3c5b8ce82e13b9b6"
+    },
+    {
+      "name": "waist_support_link",
+      "source_faces": 3008,
+      "output_faces": 540,
+      "bounds_drift_m": 0.0008513718845242074,
+      "source_sha256": "1fae9e1bb609848a1667d32eed8d6083ae443538a306843056a2a660f1b2926a"
+    },
+    {
+      "name": "left_shoulder_pitch_link",
+      "source_faces": 3534,
+      "output_faces": 636,
+      "bounds_drift_m": 0.0007622006970507689,
+      "source_sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
+    },
+    {
+      "name": "left_shoulder_roll_link",
+      "source_faces": 8004,
+      "output_faces": 1440,
+      "bounds_drift_m": 8.252074382120861e-05,
+      "source_sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
+    },
+    {
+      "name": "left_shoulder_yaw_link",
+      "source_faces": 4982,
+      "output_faces": 896,
+      "bounds_drift_m": 0.0007335005048062851,
+      "source_sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
+    },
+    {
+      "name": "left_elbow_link",
+      "source_faces": 1774,
+      "output_faces": 318,
+      "bounds_drift_m": 0.0009382730349898338,
+      "source_sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
+    },
+    {
+      "name": "left_wrist_roll_link",
+      "source_faces": 7122,
+      "output_faces": 1280,
+      "bounds_drift_m": 0.0004529688397990894,
+      "source_sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c"
+    },
+    {
+      "name": "left_wrist_pitch_link",
+      "source_faces": 1718,
+      "output_faces": 1718,
+      "bounds_drift_m": 0.0,
+      "source_sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9"
+    },
+    {
+      "name": "left_wrist_yaw_link",
+      "source_faces": 6372,
+      "output_faces": 1146,
+      "bounds_drift_m": 0.0005349007570823669,
+      "source_sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b"
+    },
+    {
+      "name": "left_rubber_hand",
+      "source_faces": 45748,
+      "output_faces": 18298,
+      "bounds_drift_m": 4.002386094537763e-05,
+      "source_sha256": "cff2221a690fa69303f61fce68f2d155c1517b52efb6ca9262dd56e0bc6e70fe"
+    },
+    {
+      "name": "right_shoulder_pitch_link",
+      "source_faces": 3534,
+      "output_faces": 636,
+      "bounds_drift_m": 0.0010789457863626534,
+      "source_sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
+    },
+    {
+      "name": "right_shoulder_roll_link",
+      "source_faces": 8036,
+      "output_faces": 1446,
+      "bounds_drift_m": 0.00020476069738035313,
+      "source_sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
+    },
+    {
+      "name": "right_shoulder_yaw_link",
+      "source_faces": 4998,
+      "output_faces": 898,
+      "bounds_drift_m": 0.0008376706398445996,
+      "source_sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
+    },
+    {
+      "name": "right_elbow_link",
+      "source_faces": 1774,
+      "output_faces": 318,
+      "bounds_drift_m": 0.0011823203785106956,
+      "source_sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
+    },
+    {
+      "name": "right_wrist_roll_link",
+      "source_faces": 7120,
+      "output_faces": 1280,
+      "bounds_drift_m": 0.0003593359417998383,
+      "source_sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f"
+    },
+    {
+      "name": "right_wrist_pitch_link",
+      "source_faces": 1590,
+      "output_faces": 1590,
+      "bounds_drift_m": 0.0,
+      "source_sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477"
+    },
+    {
+      "name": "right_wrist_yaw_link",
+      "source_faces": 6828,
+      "output_faces": 1229,
+      "bounds_drift_m": 0.0003870266334071344,
+      "source_sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6"
+    },
+    {
+      "name": "right_rubber_hand",
+      "source_faces": 43852,
+      "output_faces": 17540,
+      "bounds_drift_m": 2.285044966619798e-05,
+      "source_sha256": "99533b778bca6246144fa511bb9d4e555e075c641f2a0251e04372869cd99d67"
+    }
+  ]
+}

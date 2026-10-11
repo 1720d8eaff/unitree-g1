@@ -1,0 +1,21 @@
+{
+  "method": "Existing CEM reference with development-only grasp-height calibration",
+  "source_policy": "work/box_transfer/policy.json",
+  "calibration": "grasp-height-development.json; choose 0 m offset for lower combined raw/feedback placement error on development scene -2",
+  "parameters": {
+    "compression_m": 0.012783191427578826,
+    "grasp_z_offset_m": 0.0,
+    "lift_m": 0.15807164616472907,
+    "reach_x_offset_m": 0.0011188259160377272,
+    "approach_s": 1.0544255559591194,
+    "close_s": 0.4,
+    "lift_s": 0.9703990991432775,
+    "stiffness": 1.1921327201463603,
+    "transfer_s": 1.5892114731407039,
+    "lower_s": 1.4227326301907093,
+    "place_z_offset_m": 0.014351588236120413,
+    "release_s": 0.8072672600178318,
+    "place_x_offset_m": 0.045044639995433726,
+    "place_y_offset_m": 0.0023121418526998727
+  }
+}

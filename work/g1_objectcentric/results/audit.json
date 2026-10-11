@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "csv_rows": 192,
+  "unique_episodes": 192,
+  "scenarios": 24,
+  "episodes_per_mode": 48,
+  "trace_files": 192,
+  "control_source_hashes_match": true,
+  "shared_dependency_sha256": {
+    "work\\box_lift\\task.py": "f372b40c8a01b822614d09daee8b01fe8f6f7b5abbca0a16422c3b3275eb80e7",
+    "work\\box_transfer\\task.py": "c48d424350f8656276b41dfe1af23526c2f027156c13ba388d46f3d1ebcb8549"
+  }
+}

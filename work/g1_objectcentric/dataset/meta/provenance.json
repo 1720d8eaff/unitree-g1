@@ -1,0 +1,7 @@
+{
+  "source": "physics simulation",
+  "controller": "CEM trajectory plus object-centric feedback",
+  "vla_weights_used": false,
+  "real_robot_data": false,
+  "gr00t_loader_validated": false
+}

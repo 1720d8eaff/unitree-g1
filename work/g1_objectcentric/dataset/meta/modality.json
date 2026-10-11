@@ -1,0 +1,43 @@
+{
+  "state": {
+    "left_eef": {
+      "start": 0,
+      "end": 6
+    },
+    "right_eef": {
+      "start": 6,
+      "end": 12
+    },
+    "arms": {
+      "start": 12,
+      "end": 26
+    }
+  },
+  "action": {
+    "left_eef": {
+      "start": 0,
+      "end": 6
+    },
+    "right_eef": {
+      "start": 6,
+      "end": 12
+    },
+    "arms": {
+      "start": 12,
+      "end": 26
+    }
+  },
+  "video": {
+    "front": {
+      "original_key": "observation.images.front"
+    },
+    "side": {
+      "original_key": "observation.images.side"
+    }
+  },
+  "annotation": {
+    "human.task_description": {
+      "original_key": "task_index"
+    }
+  }
+}

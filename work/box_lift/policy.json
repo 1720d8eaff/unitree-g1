@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "method": "cross-entropy trajectory policy search (CEM)",
+  "model_sha256": "47280bf910b50cba664a1515e1ccb34a9fbdab93919e19113b1eb5aadef0c167",
+  "parameters": {
+    "compression_m": 0.006214406471803241,
+    "grasp_z_offset_m": 0.01704089870522598,
+    "lift_m": 0.16856101191705386,
+    "reach_x_offset_m": -0.00115695800244937,
+    "approach_s": 0.9574211223206253,
+    "close_s": 0.448713792145909,
+    "lift_s": 1.1842203189348117,
+    "stiffness": 1.124544938455553
+  },
+  "validation_successes": 12,
+  "validation_episodes": 12,
+  "training_episodes": 60
+}

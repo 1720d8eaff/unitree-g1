@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "episodes": 2,
+  "total_frames": 174,
+  "checks": [
+    "Parquet roundtrip",
+    "state/action dimensions",
+    "timestamp cadence",
+    "H264 decoding",
+    "video frame counts"
+  ],
+  "gr00t_loader_tested": false
+}
