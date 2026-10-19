@@ -2,6 +2,8 @@
 
 本次接口新增于2026-10-19。归档的192次CEM控制仿真、2条轨迹/174帧数据及其散列保持不变。新增演示使用独立目录，拒绝覆盖已有文件。
 
+后续新增的真实物理轨迹导出和受限 RGB-D 反馈实现见[物理数据流](physical-dataflow.md)。下文的 `collection_fixture` 仍是随机像素接口样例；不要与新物理集合混用。`deployment.simulation` 的 GR00T 动作入口与 `dataflow.vision_run` 的 CEM / RGB-D 控制入口分别验证，各自没有证明 GR00T 视觉闭环有效。
+
 ## 已实现的链路
 
 | 模块 | 实现 | 本地验证范围 |

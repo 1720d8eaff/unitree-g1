@@ -1,0 +1,1118 @@
+{
+  "source": "simulation",
+  "action_source": "CEM with simulated pose feedback",
+  "real_robot_data": false,
+  "vla_weights_used": false,
+  "requested_keep": 174,
+  "planned_episodes": [
+    {
+      "episode_id": "sim-0000",
+      "scene_id": 0,
+      "seed": 20261019
+    },
+    {
+      "episode_id": "sim-0001",
+      "scene_id": 1,
+      "seed": 20262016
+    },
+    {
+      "episode_id": "sim-0002",
+      "scene_id": 2,
+      "seed": 20263013
+    },
+    {
+      "episode_id": "sim-0003",
+      "scene_id": 3,
+      "seed": 20264010
+    },
+    {
+      "episode_id": "sim-0004",
+      "scene_id": 4,
+      "seed": 20265007
+    },
+    {
+      "episode_id": "sim-0005",
+      "scene_id": 5,
+      "seed": 20266004
+    },
+    {
+      "episode_id": "sim-0006",
+      "scene_id": 6,
+      "seed": 20267001
+    },
+    {
+      "episode_id": "sim-0007",
+      "scene_id": 7,
+      "seed": 20267998
+    },
+    {
+      "episode_id": "sim-0008",
+      "scene_id": 8,
+      "seed": 20268995
+    },
+    {
+      "episode_id": "sim-0009",
+      "scene_id": 9,
+      "seed": 20269992
+    },
+    {
+      "episode_id": "sim-0010",
+      "scene_id": 10,
+      "seed": 20270989
+    },
+    {
+      "episode_id": "sim-0011",
+      "scene_id": 11,
+      "seed": 20271986
+    },
+    {
+      "episode_id": "sim-0012",
+      "scene_id": 12,
+      "seed": 20272983
+    },
+    {
+      "episode_id": "sim-0013",
+      "scene_id": 13,
+      "seed": 20273980
+    },
+    {
+      "episode_id": "sim-0014",
+      "scene_id": 14,
+      "seed": 20274977
+    },
+    {
+      "episode_id": "sim-0015",
+      "scene_id": 15,
+      "seed": 20275974
+    },
+    {
+      "episode_id": "sim-0016",
+      "scene_id": 16,
+      "seed": 20276971
+    },
+    {
+      "episode_id": "sim-0017",
+      "scene_id": 17,
+      "seed": 20277968
+    },
+    {
+      "episode_id": "sim-0018",
+      "scene_id": 18,
+      "seed": 20278965
+    },
+    {
+      "episode_id": "sim-0019",
+      "scene_id": 19,
+      "seed": 20279962
+    },
+    {
+      "episode_id": "sim-0020",
+      "scene_id": 20,
+      "seed": 20280959
+    },
+    {
+      "episode_id": "sim-0021",
+      "scene_id": 21,
+      "seed": 20281956
+    },
+    {
+      "episode_id": "sim-0022",
+      "scene_id": 22,
+      "seed": 20282953
+    },
+    {
+      "episode_id": "sim-0023",
+      "scene_id": 23,
+      "seed": 20283950
+    },
+    {
+      "episode_id": "sim-0024",
+      "scene_id": 0,
+      "seed": 20284947
+    },
+    {
+      "episode_id": "sim-0025",
+      "scene_id": 1,
+      "seed": 20285944
+    },
+    {
+      "episode_id": "sim-0026",
+      "scene_id": 2,
+      "seed": 20286941
+    },
+    {
+      "episode_id": "sim-0027",
+      "scene_id": 3,
+      "seed": 20287938
+    },
+    {
+      "episode_id": "sim-0028",
+      "scene_id": 4,
+      "seed": 20288935
+    },
+    {
+      "episode_id": "sim-0029",
+      "scene_id": 5,
+      "seed": 20289932
+    },
+    {
+      "episode_id": "sim-0030",
+      "scene_id": 6,
+      "seed": 20290929
+    },
+    {
+      "episode_id": "sim-0031",
+      "scene_id": 7,
+      "seed": 20291926
+    },
+    {
+      "episode_id": "sim-0032",
+      "scene_id": 8,
+      "seed": 20292923
+    },
+    {
+      "episode_id": "sim-0033",
+      "scene_id": 9,
+      "seed": 20293920
+    },
+    {
+      "episode_id": "sim-0034",
+      "scene_id": 10,
+      "seed": 20294917
+    },
+    {
+      "episode_id": "sim-0035",
+      "scene_id": 11,
+      "seed": 20295914
+    },
+    {
+      "episode_id": "sim-0036",
+      "scene_id": 12,
+      "seed": 20296911
+    },
+    {
+      "episode_id": "sim-0037",
+      "scene_id": 13,
+      "seed": 20297908
+    },
+    {
+      "episode_id": "sim-0038",
+      "scene_id": 14,
+      "seed": 20298905
+    },
+    {
+      "episode_id": "sim-0039",
+      "scene_id": 15,
+      "seed": 20299902
+    },
+    {
+      "episode_id": "sim-0040",
+      "scene_id": 16,
+      "seed": 20300899
+    },
+    {
+      "episode_id": "sim-0041",
+      "scene_id": 17,
+      "seed": 20301896
+    },
+    {
+      "episode_id": "sim-0042",
+      "scene_id": 18,
+      "seed": 20302893
+    },
+    {
+      "episode_id": "sim-0043",
+      "scene_id": 19,
+      "seed": 20303890
+    },
+    {
+      "episode_id": "sim-0044",
+      "scene_id": 20,
+      "seed": 20304887
+    },
+    {
+      "episode_id": "sim-0045",
+      "scene_id": 21,
+      "seed": 20305884
+    },
+    {
+      "episode_id": "sim-0046",
+      "scene_id": 22,
+      "seed": 20306881
+    },
+    {
+      "episode_id": "sim-0047",
+      "scene_id": 23,
+      "seed": 20307878
+    },
+    {
+      "episode_id": "sim-0048",
+      "scene_id": 0,
+      "seed": 20308875
+    },
+    {
+      "episode_id": "sim-0049",
+      "scene_id": 1,
+      "seed": 20309872
+    },
+    {
+      "episode_id": "sim-0050",
+      "scene_id": 2,
+      "seed": 20310869
+    },
+    {
+      "episode_id": "sim-0051",
+      "scene_id": 3,
+      "seed": 20311866
+    },
+    {
+      "episode_id": "sim-0052",
+      "scene_id": 4,
+      "seed": 20312863
+    },
+    {
+      "episode_id": "sim-0053",
+      "scene_id": 5,
+      "seed": 20313860
+    },
+    {
+      "episode_id": "sim-0054",
+      "scene_id": 6,
+      "seed": 20314857
+    },
+    {
+      "episode_id": "sim-0055",
+      "scene_id": 7,
+      "seed": 20315854
+    },
+    {
+      "episode_id": "sim-0056",
+      "scene_id": 8,
+      "seed": 20316851
+    },
+    {
+      "episode_id": "sim-0057",
+      "scene_id": 9,
+      "seed": 20317848
+    },
+    {
+      "episode_id": "sim-0058",
+      "scene_id": 10,
+      "seed": 20318845
+    },
+    {
+      "episode_id": "sim-0059",
+      "scene_id": 11,
+      "seed": 20319842
+    },
+    {
+      "episode_id": "sim-0060",
+      "scene_id": 12,
+      "seed": 20320839
+    },
+    {
+      "episode_id": "sim-0061",
+      "scene_id": 13,
+      "seed": 20321836
+    },
+    {
+      "episode_id": "sim-0062",
+      "scene_id": 14,
+      "seed": 20322833
+    },
+    {
+      "episode_id": "sim-0063",
+      "scene_id": 15,
+      "seed": 20323830
+    },
+    {
+      "episode_id": "sim-0064",
+      "scene_id": 16,
+      "seed": 20324827
+    },
+    {
+      "episode_id": "sim-0065",
+      "scene_id": 17,
+      "seed": 20325824
+    },
+    {
+      "episode_id": "sim-0066",
+      "scene_id": 18,
+      "seed": 20326821
+    },
+    {
+      "episode_id": "sim-0067",
+      "scene_id": 19,
+      "seed": 20327818
+    },
+    {
+      "episode_id": "sim-0068",
+      "scene_id": 20,
+      "seed": 20328815
+    },
+    {
+      "episode_id": "sim-0069",
+      "scene_id": 21,
+      "seed": 20329812
+    },
+    {
+      "episode_id": "sim-0070",
+      "scene_id": 22,
+      "seed": 20330809
+    },
+    {
+      "episode_id": "sim-0071",
+      "scene_id": 23,
+      "seed": 20331806
+    },
+    {
+      "episode_id": "sim-0072",
+      "scene_id": 0,
+      "seed": 20332803
+    },
+    {
+      "episode_id": "sim-0073",
+      "scene_id": 1,
+      "seed": 20333800
+    },
+    {
+      "episode_id": "sim-0074",
+      "scene_id": 2,
+      "seed": 20334797
+    },
+    {
+      "episode_id": "sim-0075",
+      "scene_id": 3,
+      "seed": 20335794
+    },
+    {
+      "episode_id": "sim-0076",
+      "scene_id": 4,
+      "seed": 20336791
+    },
+    {
+      "episode_id": "sim-0077",
+      "scene_id": 5,
+      "seed": 20337788
+    },
+    {
+      "episode_id": "sim-0078",
+      "scene_id": 6,
+      "seed": 20338785
+    },
+    {
+      "episode_id": "sim-0079",
+      "scene_id": 7,
+      "seed": 20339782
+    },
+    {
+      "episode_id": "sim-0080",
+      "scene_id": 8,
+      "seed": 20340779
+    },
+    {
+      "episode_id": "sim-0081",
+      "scene_id": 9,
+      "seed": 20341776
+    },
+    {
+      "episode_id": "sim-0082",
+      "scene_id": 10,
+      "seed": 20342773
+    },
+    {
+      "episode_id": "sim-0083",
+      "scene_id": 11,
+      "seed": 20343770
+    },
+    {
+      "episode_id": "sim-0084",
+      "scene_id": 12,
+      "seed": 20344767
+    },
+    {
+      "episode_id": "sim-0085",
+      "scene_id": 13,
+      "seed": 20345764
+    },
+    {
+      "episode_id": "sim-0086",
+      "scene_id": 14,
+      "seed": 20346761
+    },
+    {
+      "episode_id": "sim-0087",
+      "scene_id": 15,
+      "seed": 20347758
+    },
+    {
+      "episode_id": "sim-0088",
+      "scene_id": 16,
+      "seed": 20348755
+    },
+    {
+      "episode_id": "sim-0089",
+      "scene_id": 17,
+      "seed": 20349752
+    },
+    {
+      "episode_id": "sim-0090",
+      "scene_id": 18,
+      "seed": 20350749
+    },
+    {
+      "episode_id": "sim-0091",
+      "scene_id": 19,
+      "seed": 20351746
+    },
+    {
+      "episode_id": "sim-0092",
+      "scene_id": 20,
+      "seed": 20352743
+    },
+    {
+      "episode_id": "sim-0093",
+      "scene_id": 21,
+      "seed": 20353740
+    },
+    {
+      "episode_id": "sim-0094",
+      "scene_id": 22,
+      "seed": 20354737
+    },
+    {
+      "episode_id": "sim-0095",
+      "scene_id": 23,
+      "seed": 20355734
+    },
+    {
+      "episode_id": "sim-0096",
+      "scene_id": 0,
+      "seed": 20356731
+    },
+    {
+      "episode_id": "sim-0097",
+      "scene_id": 1,
+      "seed": 20357728
+    },
+    {
+      "episode_id": "sim-0098",
+      "scene_id": 2,
+      "seed": 20358725
+    },
+    {
+      "episode_id": "sim-0099",
+      "scene_id": 3,
+      "seed": 20359722
+    },
+    {
+      "episode_id": "sim-0100",
+      "scene_id": 4,
+      "seed": 20360719
+    },
+    {
+      "episode_id": "sim-0101",
+      "scene_id": 5,
+      "seed": 20361716
+    },
+    {
+      "episode_id": "sim-0102",
+      "scene_id": 6,
+      "seed": 20362713
+    },
+    {
+      "episode_id": "sim-0103",
+      "scene_id": 7,
+      "seed": 20363710
+    },
+    {
+      "episode_id": "sim-0104",
+      "scene_id": 8,
+      "seed": 20364707
+    },
+    {
+      "episode_id": "sim-0105",
+      "scene_id": 9,
+      "seed": 20365704
+    },
+    {
+      "episode_id": "sim-0106",
+      "scene_id": 10,
+      "seed": 20366701
+    },
+    {
+      "episode_id": "sim-0107",
+      "scene_id": 11,
+      "seed": 20367698
+    },
+    {
+      "episode_id": "sim-0108",
+      "scene_id": 12,
+      "seed": 20368695
+    },
+    {
+      "episode_id": "sim-0109",
+      "scene_id": 13,
+      "seed": 20369692
+    },
+    {
+      "episode_id": "sim-0110",
+      "scene_id": 14,
+      "seed": 20370689
+    },
+    {
+      "episode_id": "sim-0111",
+      "scene_id": 15,
+      "seed": 20371686
+    },
+    {
+      "episode_id": "sim-0112",
+      "scene_id": 16,
+      "seed": 20372683
+    },
+    {
+      "episode_id": "sim-0113",
+      "scene_id": 17,
+      "seed": 20373680
+    },
+    {
+      "episode_id": "sim-0114",
+      "scene_id": 18,
+      "seed": 20374677
+    },
+    {
+      "episode_id": "sim-0115",
+      "scene_id": 19,
+      "seed": 20375674
+    },
+    {
+      "episode_id": "sim-0116",
+      "scene_id": 20,
+      "seed": 20376671
+    },
+    {
+      "episode_id": "sim-0117",
+      "scene_id": 21,
+      "seed": 20377668
+    },
+    {
+      "episode_id": "sim-0118",
+      "scene_id": 22,
+      "seed": 20378665
+    },
+    {
+      "episode_id": "sim-0119",
+      "scene_id": 23,
+      "seed": 20379662
+    },
+    {
+      "episode_id": "sim-0120",
+      "scene_id": 0,
+      "seed": 20380659
+    },
+    {
+      "episode_id": "sim-0121",
+      "scene_id": 1,
+      "seed": 20381656
+    },
+    {
+      "episode_id": "sim-0122",
+      "scene_id": 2,
+      "seed": 20382653
+    },
+    {
+      "episode_id": "sim-0123",
+      "scene_id": 3,
+      "seed": 20383650
+    },
+    {
+      "episode_id": "sim-0124",
+      "scene_id": 4,
+      "seed": 20384647
+    },
+    {
+      "episode_id": "sim-0125",
+      "scene_id": 5,
+      "seed": 20385644
+    },
+    {
+      "episode_id": "sim-0126",
+      "scene_id": 6,
+      "seed": 20386641
+    },
+    {
+      "episode_id": "sim-0127",
+      "scene_id": 7,
+      "seed": 20387638
+    },
+    {
+      "episode_id": "sim-0128",
+      "scene_id": 8,
+      "seed": 20388635
+    },
+    {
+      "episode_id": "sim-0129",
+      "scene_id": 9,
+      "seed": 20389632
+    },
+    {
+      "episode_id": "sim-0130",
+      "scene_id": 10,
+      "seed": 20390629
+    },
+    {
+      "episode_id": "sim-0131",
+      "scene_id": 11,
+      "seed": 20391626
+    },
+    {
+      "episode_id": "sim-0132",
+      "scene_id": 12,
+      "seed": 20392623
+    },
+    {
+      "episode_id": "sim-0133",
+      "scene_id": 13,
+      "seed": 20393620
+    },
+    {
+      "episode_id": "sim-0134",
+      "scene_id": 14,
+      "seed": 20394617
+    },
+    {
+      "episode_id": "sim-0135",
+      "scene_id": 15,
+      "seed": 20395614
+    },
+    {
+      "episode_id": "sim-0136",
+      "scene_id": 16,
+      "seed": 20396611
+    },
+    {
+      "episode_id": "sim-0137",
+      "scene_id": 17,
+      "seed": 20397608
+    },
+    {
+      "episode_id": "sim-0138",
+      "scene_id": 18,
+      "seed": 20398605
+    },
+    {
+      "episode_id": "sim-0139",
+      "scene_id": 19,
+      "seed": 20399602
+    },
+    {
+      "episode_id": "sim-0140",
+      "scene_id": 20,
+      "seed": 20400599
+    },
+    {
+      "episode_id": "sim-0141",
+      "scene_id": 21,
+      "seed": 20401596
+    },
+    {
+      "episode_id": "sim-0142",
+      "scene_id": 22,
+      "seed": 20402593
+    },
+    {
+      "episode_id": "sim-0143",
+      "scene_id": 23,
+      "seed": 20403590
+    },
+    {
+      "episode_id": "sim-0144",
+      "scene_id": 0,
+      "seed": 20404587
+    },
+    {
+      "episode_id": "sim-0145",
+      "scene_id": 1,
+      "seed": 20405584
+    },
+    {
+      "episode_id": "sim-0146",
+      "scene_id": 2,
+      "seed": 20406581
+    },
+    {
+      "episode_id": "sim-0147",
+      "scene_id": 3,
+      "seed": 20407578
+    },
+    {
+      "episode_id": "sim-0148",
+      "scene_id": 4,
+      "seed": 20408575
+    },
+    {
+      "episode_id": "sim-0149",
+      "scene_id": 5,
+      "seed": 20409572
+    },
+    {
+      "episode_id": "sim-0150",
+      "scene_id": 6,
+      "seed": 20410569
+    },
+    {
+      "episode_id": "sim-0151",
+      "scene_id": 7,
+      "seed": 20411566
+    },
+    {
+      "episode_id": "sim-0152",
+      "scene_id": 8,
+      "seed": 20412563
+    },
+    {
+      "episode_id": "sim-0153",
+      "scene_id": 9,
+      "seed": 20413560
+    },
+    {
+      "episode_id": "sim-0154",
+      "scene_id": 10,
+      "seed": 20414557
+    },
+    {
+      "episode_id": "sim-0155",
+      "scene_id": 11,
+      "seed": 20415554
+    },
+    {
+      "episode_id": "sim-0156",
+      "scene_id": 12,
+      "seed": 20416551
+    },
+    {
+      "episode_id": "sim-0157",
+      "scene_id": 13,
+      "seed": 20417548
+    },
+    {
+      "episode_id": "sim-0158",
+      "scene_id": 14,
+      "seed": 20418545
+    },
+    {
+      "episode_id": "sim-0159",
+      "scene_id": 15,
+      "seed": 20419542
+    },
+    {
+      "episode_id": "sim-0160",
+      "scene_id": 16,
+      "seed": 20420539
+    },
+    {
+      "episode_id": "sim-0161",
+      "scene_id": 17,
+      "seed": 20421536
+    },
+    {
+      "episode_id": "sim-0162",
+      "scene_id": 18,
+      "seed": 20422533
+    },
+    {
+      "episode_id": "sim-0163",
+      "scene_id": 19,
+      "seed": 20423530
+    },
+    {
+      "episode_id": "sim-0164",
+      "scene_id": 20,
+      "seed": 20424527
+    },
+    {
+      "episode_id": "sim-0165",
+      "scene_id": 21,
+      "seed": 20425524
+    },
+    {
+      "episode_id": "sim-0166",
+      "scene_id": 22,
+      "seed": 20426521
+    },
+    {
+      "episode_id": "sim-0167",
+      "scene_id": 23,
+      "seed": 20427518
+    },
+    {
+      "episode_id": "sim-0168",
+      "scene_id": 0,
+      "seed": 20428515
+    },
+    {
+      "episode_id": "sim-0169",
+      "scene_id": 1,
+      "seed": 20429512
+    },
+    {
+      "episode_id": "sim-0170",
+      "scene_id": 2,
+      "seed": 20430509
+    },
+    {
+      "episode_id": "sim-0171",
+      "scene_id": 3,
+      "seed": 20431506
+    },
+    {
+      "episode_id": "sim-0172",
+      "scene_id": 4,
+      "seed": 20432503
+    },
+    {
+      "episode_id": "sim-0173",
+      "scene_id": 5,
+      "seed": 20433500
+    },
+    {
+      "episode_id": "sim-0174",
+      "scene_id": 6,
+      "seed": 20434497
+    },
+    {
+      "episode_id": "sim-0175",
+      "scene_id": 7,
+      "seed": 20435494
+    },
+    {
+      "episode_id": "sim-0176",
+      "scene_id": 8,
+      "seed": 20436491
+    },
+    {
+      "episode_id": "sim-0177",
+      "scene_id": 9,
+      "seed": 20437488
+    },
+    {
+      "episode_id": "sim-0178",
+      "scene_id": 10,
+      "seed": 20438485
+    },
+    {
+      "episode_id": "sim-0179",
+      "scene_id": 11,
+      "seed": 20439482
+    },
+    {
+      "episode_id": "sim-0180",
+      "scene_id": 12,
+      "seed": 20440479
+    },
+    {
+      "episode_id": "sim-0181",
+      "scene_id": 13,
+      "seed": 20441476
+    },
+    {
+      "episode_id": "sim-0182",
+      "scene_id": 14,
+      "seed": 20442473
+    },
+    {
+      "episode_id": "sim-0183",
+      "scene_id": 15,
+      "seed": 20443470
+    },
+    {
+      "episode_id": "sim-0184",
+      "scene_id": 16,
+      "seed": 20444467
+    },
+    {
+      "episode_id": "sim-0185",
+      "scene_id": 17,
+      "seed": 20445464
+    },
+    {
+      "episode_id": "sim-0186",
+      "scene_id": 18,
+      "seed": 20446461
+    },
+    {
+      "episode_id": "sim-0187",
+      "scene_id": 19,
+      "seed": 20447458
+    },
+    {
+      "episode_id": "sim-0188",
+      "scene_id": 20,
+      "seed": 20448455
+    },
+    {
+      "episode_id": "sim-0189",
+      "scene_id": 21,
+      "seed": 20449452
+    },
+    {
+      "episode_id": "sim-0190",
+      "scene_id": 22,
+      "seed": 20450449
+    },
+    {
+      "episode_id": "sim-0191",
+      "scene_id": 23,
+      "seed": 20451446
+    },
+    {
+      "episode_id": "sim-0192",
+      "scene_id": 0,
+      "seed": 20452443
+    },
+    {
+      "episode_id": "sim-0193",
+      "scene_id": 1,
+      "seed": 20453440
+    },
+    {
+      "episode_id": "sim-0194",
+      "scene_id": 2,
+      "seed": 20454437
+    },
+    {
+      "episode_id": "sim-0195",
+      "scene_id": 3,
+      "seed": 20455434
+    },
+    {
+      "episode_id": "sim-0196",
+      "scene_id": 4,
+      "seed": 20456431
+    },
+    {
+      "episode_id": "sim-0197",
+      "scene_id": 5,
+      "seed": 20457428
+    },
+    {
+      "episode_id": "sim-0198",
+      "scene_id": 6,
+      "seed": 20458425
+    },
+    {
+      "episode_id": "sim-0199",
+      "scene_id": 7,
+      "seed": 20459422
+    },
+    {
+      "episode_id": "sim-0200",
+      "scene_id": 8,
+      "seed": 20460419
+    },
+    {
+      "episode_id": "sim-0201",
+      "scene_id": 9,
+      "seed": 20461416
+    },
+    {
+      "episode_id": "sim-0202",
+      "scene_id": 10,
+      "seed": 20462413
+    },
+    {
+      "episode_id": "sim-0203",
+      "scene_id": 11,
+      "seed": 20463410
+    },
+    {
+      "episode_id": "sim-0204",
+      "scene_id": 12,
+      "seed": 20464407
+    },
+    {
+      "episode_id": "sim-0205",
+      "scene_id": 13,
+      "seed": 20465404
+    },
+    {
+      "episode_id": "sim-0206",
+      "scene_id": 14,
+      "seed": 20466401
+    },
+    {
+      "episode_id": "sim-0207",
+      "scene_id": 15,
+      "seed": 20467398
+    },
+    {
+      "episode_id": "sim-0208",
+      "scene_id": 16,
+      "seed": 20468395
+    },
+    {
+      "episode_id": "sim-0209",
+      "scene_id": 17,
+      "seed": 20469392
+    },
+    {
+      "episode_id": "sim-0210",
+      "scene_id": 18,
+      "seed": 20470389
+    },
+    {
+      "episode_id": "sim-0211",
+      "scene_id": 19,
+      "seed": 20471386
+    },
+    {
+      "episode_id": "sim-0212",
+      "scene_id": 20,
+      "seed": 20472383
+    },
+    {
+      "episode_id": "sim-0213",
+      "scene_id": 21,
+      "seed": 20473380
+    },
+    {
+      "episode_id": "sim-0214",
+      "scene_id": 22,
+      "seed": 20474377
+    },
+    {
+      "episode_id": "sim-0215",
+      "scene_id": 23,
+      "seed": 20475374
+    },
+    {
+      "episode_id": "sim-0216",
+      "scene_id": 0,
+      "seed": 20476371
+    },
+    {
+      "episode_id": "sim-0217",
+      "scene_id": 1,
+      "seed": 20477368
+    },
+    {
+      "episode_id": "sim-0218",
+      "scene_id": 2,
+      "seed": 20478365
+    },
+    {
+      "episode_id": "sim-0219",
+      "scene_id": 3,
+      "seed": 20479362
+    }
+  ],
+  "selection_rule": "terminal-success eligible; first eligible episodes up to quota; all exclusions retained",
+  "source_sha256": {
+    "dataflow\\collect.py": "469155dcec3cc94a3bafc5b4e928a03ee7b40f5cd8598e64e776c887d15b74b5",
+    "work\\g1_objectcentric\\task.py": "f4e3ff76250a278fcc6600ceb0fbc53dbf5900a5e9e047c9eaca0e88df8baed3",
+    "work\\g1_objectcentric\\reference-parameters.json": "e24acefa7375b02c77bf24cfd06284f77f26c559b59dba05ebda0c12c352b1ae",
+    "work\\box_transfer\\scene.xml": "a8bdd5a28f2e332cdf4602f1fc1b3a2216b2c69a6dff6355e5a1832431693486",
+    "work\\box_lift\\task.py": "f372b40c8a01b822614d09daee8b01fe8f6f7b5abbca0a16422c3b3275eb80e7",
+    "benchmark\\protocol.py": "f1f30f9a6190f1fdef9b217a82c76c758fec2e2da452999f24fd1d38b193833e"
+  }
+}

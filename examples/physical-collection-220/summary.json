@@ -1,0 +1,15 @@
+{
+  "source": "simulation",
+  "real_robot_data": false,
+  "vla_weights_used": false,
+  "planned_episodes": 220,
+  "eligible_episodes": 189,
+  "accepted_episodes": 174,
+  "rejected_episodes": 46,
+  "accepted_frames": 15138,
+  "total_frames": 19140,
+  "requested_keep": 174,
+  "quota_met": true,
+  "wall_s": 301.890359099998,
+  "interpretation": "Collection eligibility and quota, not independent policy test performance."
+}

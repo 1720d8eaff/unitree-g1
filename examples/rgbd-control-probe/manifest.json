@@ -1,0 +1,16 @@
+{
+  "source": "simulation",
+  "action_source": "CEM",
+  "sensor_source": "rendered RGB and metric depth",
+  "real_robot": false,
+  "gr00t_weights_used": false,
+  "scene_id": 0,
+  "seed": 20261019,
+  "assumptions": [
+    "known orange box",
+    "known size",
+    "upright top face",
+    "calibrated simulated cameras"
+  ],
+  "full_6dof_visual_tracking": false
+}

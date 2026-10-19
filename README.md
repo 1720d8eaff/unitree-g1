@@ -8,6 +8,8 @@
 
 已提交的新增演示：[174份独立合成episode](examples/synthetic-collection/README.md)、[内存控制接口](examples/interface-demo/README.md)、[合成策略驱动的MuJoCo冒烟运行](examples/synthetic-policy-smoke/README.md)。这些演示未使用GR00T权重或真机，不能当成历史实验成果。
 
+新增[物理仿真数据与 RGB-D 验证](docs/physical-dataflow.md)：实际执行220条CEM驱动的MuJoCo轨迹，189条满足物理筛选条件，按配额保留174条、15,138帧，训练/验证为139/35条。提供双视角真实渲染、全部失败、原始遥测和独立复算；来源始终为仿真。另有受限橙色直立箱体RGB-D反馈控制单场景验证。
+
 **科研复核入口：** [192次实验逐项复盘](docs/evaluation-evidence.md)、[简历证据核对](docs/resume-alignment.md)、[2026-10-19完整重跑](results/2026-10-19/summary.json)。新增严格审计和完整成功判定遥测；命令行和 F7 评测均写入新目录。
 
 另有[模拟日志格式示例](examples/synthetic-resume-logs/README.md)：按指定约数构造31/48→36/48等示例，逐条标为synthetic，未执行对应物理仿真或GR00T推理，与下方真实CEM控制仿真37/48→43/48分开保存。

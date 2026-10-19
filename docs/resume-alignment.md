@@ -13,9 +13,9 @@
 | 成功率增量 | +12.5pp；场景聚类95%区间[-4.2,29.2]pp | 区间包含0，不能说已证明提升 |
 | 稳定搬运抓持位置漂移 | raw约0.963cm/40条有效轨迹；feedback约1.021cm/48条 | 与简历2.4→2.1cm不符；不能替换成最终XY放置误差5.00→1.94cm |
 | GR00T基线 | 未加载权重；动作来自CEM代理 | 这些结果不能标成GR00T推理、SFT或真实预测残差评测 |
-| RGB-D闭环 | 已导出仿真RGB-D，反馈仍来自MuJoCo真值的传感器模拟 | 未实现RGB-D物体跟踪闭环 |
+| RGB-D闭环 | 归档反馈来自MuJoCo真值；新增受限橙色直立箱体RGB-D中心位置跟踪和单场景控制实跑 | 尚未实现一般物体6DoF跟踪或真机RGB-D闭环；见physical-dataflow.md |
 | G1 EDU29DoF / Dex3 / SDK2 | 归档仿真固定身体，14DoF手臂、刚性掌心；新增SDK2传输与看门狗接口 | SDK2硬件未验收，未实现Dex3手指控制，也没有真机采集日志 |
-| 220条计划、174条有效示范 | 仓库样例为2条仿真轨迹共174帧 | 174帧与174条真机episode不是同一个量 |
+| 220条计划、174条有效示范 | 原样例2条174帧不变；另实跑220条物理仿真、189条合格，按配额保留174条15,138帧 | 新数据为CEM驱动的仿真，不是174条真机示范 |
 | REAL_G1训练适配 | 当前自定义固定掌心配置使用NEW_EMBODIMENT | 官方loader及训练尚未执行，不能把配置文件视为训练通过 |
 
 已查证的[GR00T模态配置说明](https://github.com/NVIDIA/Isaac-GR00T/blob/main/getting_started/data_config.md)要求模态键、动作表示和数据切片一致；[SDK2官方Arm7示例](https://github.com/unitreerobotics/unitree_sdk2_python/blob/master/example/g1/high_level/g1_arm7_sdk_dds_example.py)仅作后续接口参考。使用真实平台时需要锁定上游commit、核对checkpoint对应的本体与动作约定，不能直接给刚性掌心仿真贴上REAL_G1标签。

@@ -1,0 +1,22 @@
+{
+  "source": "simulation",
+  "real_robot": false,
+  "gr00t_weights_used": false,
+  "action_source": "CEM",
+  "sensor_source": "RGB-D segmentation and backprojection; no current object-pose truth fed to observe",
+  "measurements": 86,
+  "mean_tracking_error_cm": 0.6115761779885418,
+  "max_tracking_error_cm": 1.6617899780954941,
+  "task_result": {
+    "terminal_success": true,
+    "ever_stable_success": true,
+    "current_stable_s": 2.4060000000000006,
+    "best_stable_s": 2.4060000000000006,
+    "dual_contact_s": 3.7299999999999995,
+    "max_lift_m": 0.14200348301140175,
+    "fallen": false,
+    "samples": 866
+  },
+  "stale_pose_steps": 3,
+  "full_6dof_visual_tracking": false
+}

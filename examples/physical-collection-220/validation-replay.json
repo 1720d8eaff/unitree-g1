@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "source": "simulation",
+  "real_robot_data": false,
+  "planned_episodes": 220,
+  "eligible_episodes": 189,
+  "accepted_episodes": 174,
+  "rejected_episodes": 46,
+  "total_frames": 19140,
+  "accepted_frames": 15138,
+  "partition_episodes": {
+    "train": 139,
+    "validation": 35
+  },
+  "decoded_videos": 348,
+  "official_gr00t_loader_tested": false,
+  "checks": [
+    "all artifact hashes",
+    "episode/frame counts",
+    "complete partitions",
+    "physical success replay",
+    "train-only normalization",
+    "Parquet timelines",
+    "full video decode/frame counts"
+  ]
+}

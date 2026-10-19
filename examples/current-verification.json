@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "python_tests_passed": 37,
+  "gr00t_weights_executed": false,
+  "smolvla_weights_executed": false,
+  "sdk2_hardware_tested": false,
+  "real_robot_data": false,
+  "scope": "Actual software/simulation checks; no historical robot results.",
+  "archived_files_byte_identical": 222,
+  "physical_accepted_episodes": 174,
+  "physical_accepted_frames": 15138,
+  "physical_eligible_episodes": 189,
+  "physical_candidate_episodes": 220,
+  "dataset_archive_sha256": "770c5da6d8be5c6dbba0e98c446018e73c42329d961fa8aafcaed85019d2de24",
+  "rgbd_single_scene_tested": true
+}

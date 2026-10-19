@@ -30,3 +30,19 @@ jobs:
         with:
           name: simulation-smoke
           path: artifacts/simulation-smoke
+  dataflow:
+    runs-on: ubuntu-latest
+    env:
+      MUJOCO_GL: egl
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-dataflow.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python -m dataflow.collect --output-dir artifacts/dataflow-smoke --episodes 2 --keep 1
+      - run: python -m dataflow.inventory artifacts/dataflow-smoke
+      - run: python -m dataflow.validate artifacts/dataflow-smoke
