@@ -7,6 +7,13 @@ import numpy as np
 from .collect import digest, train_stats, write_json
 
 
+def stored_path(root, name):
+    """Read manifests collected on either Windows or POSIX hosts."""
+    path=(Path(root)/str(name).replace("\\","/")).resolve()
+    if Path(root).resolve() not in path.parents:raise ValueError("Escaped artifact path")
+    return path
+
+
 def validate(root, *, videos=True):
     from benchmark.protocol import Criteria, SuccessEvaluator
     import pyarrow.parquet as pq
@@ -26,10 +33,10 @@ def validate(root, *, videos=True):
         if row["accepted"] and not row["eligible"]:raise ValueError("Ineligible episode accepted")
         if not row["accepted"] and not row.get("exclusion_reason"):raise ValueError("Missing exclusion reason")
         for artifact in row["artifacts"].values():
-            p=(root/artifact["path"]).resolve()
+            p=stored_path(root,artifact["path"])
             if root not in p.parents or not p.is_file() or digest(p)!=artifact["sha256"]:
                 raise ValueError("Missing, escaped or changed artifact")
-        with np.load(root/row["artifacts"]["trajectory"]["path"],allow_pickle=False) as a:
+        with np.load(stored_path(root,row["artifacts"]["trajectory"]["path"]),allow_pickle=False) as a:
             n=len(a["timestamp"])
             if str(a["source"])!="simulation" or bool(a["real_robot_data"]):raise ValueError("Wrong trajectory provenance")
             if n!=row["frames"] or a["state"].shape!=(n,26) or a["action"].shape!=(n,26):raise ValueError("Episode/frame confusion")
@@ -37,7 +44,7 @@ def validate(root, *, videos=True):
             if n<2 or not np.all(np.diff(a["timestamp"])>0):raise ValueError("Invalid frame timeline")
         frames+=row["frames"];eligible+=row["eligible"]
         replay=SuccessEvaluator(row["initial_z_m"],Criteria(**row["criteria"]))
-        with gzip.open(root/row["artifacts"]["telemetry"]["path"],"rt",encoding="utf-8") as trace:
+        with gzip.open(stored_path(root,row["artifacts"]["telemetry"]["path"]),"rt",encoding="utf-8") as trace:
             for line in trace:replay.update(json.loads(line))
         calculated_result=replay.result()
         # The collection evaluator also saw t=0; stored telemetry starts at

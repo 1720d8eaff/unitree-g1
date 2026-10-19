@@ -19,6 +19,13 @@ class DataflowTests(unittest.TestCase):
         stats=train_stats([np.array([[1.,2.],[3.,4.]]),np.array([[5.,6.]])])
         self.assertEqual(stats["count"],[3]);self.assertEqual(stats["mean"],[3.,4.])
 
+    def test_windows_manifest_paths_are_portable_and_cannot_escape(self):
+        from dataflow.validate import stored_path
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d).resolve()
+            self.assertEqual(stored_path(root,"raw\\sim-0000.npz"),root/"raw/sim-0000.npz")
+            with self.assertRaises(ValueError):stored_path(root,"..\\outside.npz")
+
     @unittest.skipUnless(importlib.util.find_spec("cv2"),"optional OpenCV")
     def test_no_measurement_for_missing_or_invalid_depth(self):
         from dataflow.rgbd import track

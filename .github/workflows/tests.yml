@@ -46,3 +46,5 @@ jobs:
       - run: python -m dataflow.collect --output-dir artifacts/dataflow-smoke --episodes 2 --keep 1
       - run: python -m dataflow.inventory artifacts/dataflow-smoke
       - run: python -m dataflow.validate artifacts/dataflow-smoke
+      - run: python -m zipfile -e examples/physical-collection-220/dataset.zip artifacts/committed-collection
+      - run: python -m dataflow.validate artifacts/committed-collection
