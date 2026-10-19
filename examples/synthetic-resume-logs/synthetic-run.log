@@ -1,0 +1,27 @@
+[SIMULATED / 模拟] 模拟数据：按简历目标构造的日志示例；未执行真机、GR00T/SmolVLA推理或对应训练，不能作为实验成果。
+[SIMULATED / 模拟] file=trials.jsonl records=192
+[SIMULATED / 模拟] {"policy": "raw", "trial_id": "syn-g1_control_recipe-0-000", "success": true, "failure_type": null, "duration_s": 10.64514}
+[SIMULATED / 模拟] {"policy": "smooth", "trial_id": "syn-g1_control_recipe-0-000", "success": true, "failure_type": null, "duration_s": 9.43301}
+[SIMULATED / 模拟] {"policy": "project", "trial_id": "syn-g1_control_recipe-0-000", "success": true, "failure_type": null, "duration_s": 10.97429}
+[SIMULATED / 模拟] {"policy": "feedback", "trial_id": "syn-g1_control_recipe-0-000", "success": true, "failure_type": null, "duration_s": 9.82078}
+[SIMULATED / 模拟] {"policy": "raw", "trial_id": "syn-g1_control_recipe-0-001", "success": false, "failure_type": "grasp", "duration_s": 9.80711}
+[SIMULATED / 模拟] {"policy": "smooth", "trial_id": "syn-g1_control_recipe-0-001", "success": false, "failure_type": "localization", "duration_s": 9.34974}
+[SIMULATED / 模拟] {"policy": "project", "trial_id": "syn-g1_control_recipe-0-001", "success": false, "failure_type": "target_change", "duration_s": 9.62678}
+[SIMULATED / 模拟] {"policy": "feedback", "trial_id": "syn-g1_control_recipe-0-001", "success": false, "failure_type": "localization", "duration_s": 10.28922}
+[SIMULATED / 模拟] {"policy": "raw", "trial_id": "syn-g1_control_recipe-0-002", "success": false, "failure_type": "target_change", "duration_s": 9.5353}
+[SIMULATED / 模拟] {"policy": "smooth", "trial_id": "syn-g1_control_recipe-0-002", "success": false, "failure_type": "grasp", "duration_s": 11.09298}
+[SIMULATED / 模拟] {"policy": "project", "trial_id": "syn-g1_control_recipe-0-002", "success": false, "failure_type": "timeout", "duration_s": 9.00193}
+[SIMULATED / 模拟] {"policy": "feedback", "trial_id": "syn-g1_control_recipe-0-002", "success": false, "failure_type": "grasp", "duration_s": 10.49729}
+[SIMULATED / 模拟] file=phase_events.jsonl records=1189
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "REACH", "virtual_time_s": 1.379854}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "GRIP", "virtual_time_s": 3.033302}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "LIFT", "virtual_time_s": 4.877501}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "CARRY", "virtual_time_s": 6.584745}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "LOWER", "virtual_time_s": 8.145276}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "RELEASE", "virtual_time_s": 9.440499}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-000", "policy": "raw", "phase": "SETTLE", "virtual_time_s": 10.64514}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-001", "policy": "raw", "phase": "REACH", "virtual_time_s": 3.827521}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-001", "policy": "raw", "phase": "GRIP", "virtual_time_s": 9.80711}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-002", "policy": "raw", "phase": "REACH", "virtual_time_s": 1.316124}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-002", "policy": "raw", "phase": "GRIP", "virtual_time_s": 3.032277}
+[SIMULATED / 模拟] {"trial_id": "syn-g1_control_recipe-0-002", "policy": "raw", "phase": "LIFT", "virtual_time_s": 4.399552}

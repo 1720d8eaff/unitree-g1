@@ -1,5 +1,5 @@
-"""Run all 192 paired contact simulations without rendering."""
-import runpy
+"""Run fresh paired simulations; --output-dir is required and cannot exist."""
+from benchmark.runner import main
 
 if __name__ == "__main__":
-    runpy.run_module("work.g1_objectcentric.evaluate", run_name="__main__")
+    raise SystemExit(main())
