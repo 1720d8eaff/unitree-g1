@@ -1,0 +1,32 @@
+name: Evidence and offline tests
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.5.3
+      - run: python -m unittest discover -s tests -v
+      - run: python work/g1_objectcentric/test_geometry.py
+      - run: python scripts/audit_results.py
+      - run: python -m benchmark.evidence --json artifacts/evidence.json --markdown artifacts/evidence.md
+      - run: python -O -m benchmark.evidence
+      - run: python -m benchmark.replay results/2026-10-19
+  simulation-smoke:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python evaluate.py --output-dir artifacts/simulation-smoke --scenes 0 --repeats 1
+      - run: python -m benchmark.replay artifacts/simulation-smoke
+      - uses: actions/upload-artifact@v4
+        with:
+          name: simulation-smoke
+          path: artifacts/simulation-smoke

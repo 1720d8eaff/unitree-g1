@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "complete": true,
+  "episodes": 192,
+  "wall_s": 172.20087419999618,
+  "modes": {
+    "raw": {
+      "episodes": 48,
+      "legacy_successes": 37,
+      "terminal_successes": 37,
+      "ever_stable_successes": 37
+    },
+    "smooth": {
+      "episodes": 48,
+      "legacy_successes": 37,
+      "terminal_successes": 37,
+      "ever_stable_successes": 37
+    },
+    "project": {
+      "episodes": 48,
+      "legacy_successes": 35,
+      "terminal_successes": 35,
+      "ever_stable_successes": 35
+    },
+    "feedback": {
+      "episodes": 48,
+      "legacy_successes": 43,
+      "terminal_successes": 43,
+      "ever_stable_successes": 43
+    }
+  },
+  "scope": "CEM surrogate and simulated object pose; no GR00T model or real robot",
+  "legacy_statistics": {
+    "raw": {
+      "episodes": 48,
+      "successes": 37,
+      "success_pct": 77.08333333333333,
+      "wilson95_pct": [
+        63.46046409154885,
+        86.69230897101096
+      ],
+      "mean_target_error_cm": 5.0007243234749925,
+      "mean_grasp_drift_cm": 0.9626979650733798,
+      "drift_eligible_episodes": 40,
+      "mean_command_inconsistency_cm": 2.7935410750507677,
+      "mean_tracking_cm": 1.4450063770428687,
+      "failures": {
+        "none": 37,
+        "placement_position": 3,
+        "grasp_not_established": 8
+      },
+      "mean_ik_command_inconsistency_cm": 3.063683169993291,
+      "stale_pose_steps": 0,
+      "stale_action_steps": 0
+    },
+    "smooth": {
+      "episodes": 48,
+      "successes": 37,
+      "success_pct": 77.08333333333333,
+      "wilson95_pct": [
+        63.46046409154885,
+        86.69230897101096
+      ],
+      "mean_target_error_cm": 5.0536235255709805,
+      "mean_grasp_drift_cm": 0.9935525412963238,
+      "drift_eligible_episodes": 40,
+      "mean_command_inconsistency_cm": 2.785788554894755,
+      "mean_tracking_cm": 1.4373359732020308,
+      "failures": {
+        "none": 37,
+        "placement_position": 3,
+        "grasp_not_established": 8
+      },
+      "mean_ik_command_inconsistency_cm": 3.0356584132327082,
+      "stale_pose_steps": 0,
+      "stale_action_steps": 0
+    },
+    "project": {
+      "episodes": 48,
+      "successes": 35,
+      "success_pct": 72.91666666666667,
+      "wilson95_pct": [
+        59.002765383798874,
+        83.4341964383671
+      ],
+      "mean_target_error_cm": 2.6119671714768535,
+      "mean_grasp_drift_cm": 1.2655973434814582,
+      "drift_eligible_episodes": 48,
+      "mean_command_inconsistency_cm": 2.1977413363547113e-14,
+      "mean_tracking_cm": 2.2469893859583814,
+      "failures": {
+        "none": 35,
+        "placement_position": 13
+      },
+      "mean_ik_command_inconsistency_cm": 1.7607101068674809,
+      "stale_pose_steps": 0,
+      "stale_action_steps": 0
+    },
+    "feedback": {
+      "episodes": 48,
+      "successes": 43,
+      "success_pct": 89.58333333333333,
+      "wilson95_pct": [
+        77.83231187385907,
+        95.46789490988218
+      ],
+      "mean_target_error_cm": 1.9355588047125696,
+      "mean_grasp_drift_cm": 1.021123429528956,
+      "drift_eligible_episodes": 48,
+      "mean_command_inconsistency_cm": 2.1990107651691978e-14,
+      "mean_tracking_cm": 2.457527278673016,
+      "failures": {
+        "none": 43,
+        "placement_position": 5
+      },
+      "mean_ik_command_inconsistency_cm": 2.2659899072015004,
+      "stale_pose_steps": 96,
+      "stale_action_steps": 0
+    }
+  },
+  "legacy_paired_raw_feedback": {
+    "both_success": 34,
+    "raw_only": 3,
+    "feedback_only": 9,
+    "both_failure": 2,
+    "success_difference_pp": 12.5,
+    "scene_bootstrap95_pp": [
+      -4.166666666666667,
+      29.166666666666668
+    ]
+  }
+}

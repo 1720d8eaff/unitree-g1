@@ -1,0 +1,107 @@
+{
+  "source": "synthetic",
+  "synthetic": true,
+  "clock": "virtual_monotonic",
+  "disclaimer": "模拟数据：按简历目标构造的日志示例；未执行真机、GR00T/SmolVLA推理或对应训练，不能作为实验成果。",
+  "groups": [
+    {
+      "source": "synthetic",
+      "synthetic": true,
+      "clock": "virtual_monotonic",
+      "condition": "g1_control_recipe",
+      "policy": "feedback",
+      "trials": 48,
+      "successes": 36,
+      "success_pct": 75.0,
+      "mean_duration_s": 9.772973333333333,
+      "failures": {
+        "localization": 3,
+        "grasp": 5,
+        "execution_deviation": 3,
+        "timeout": 1
+      },
+      "interpretation": "Constructed fixture counts, not an estimate of policy capability."
+    },
+    {
+      "source": "synthetic",
+      "synthetic": true,
+      "clock": "virtual_monotonic",
+      "condition": "g1_control_recipe",
+      "policy": "project",
+      "trials": 48,
+      "successes": 34,
+      "success_pct": 70.83333333333333,
+      "mean_duration_s": 10.068566875,
+      "failures": {
+        "target_change": 3,
+        "timeout": 1,
+        "localization": 1,
+        "execution_deviation": 4,
+        "grasp": 5
+      },
+      "interpretation": "Constructed fixture counts, not an estimate of policy capability."
+    },
+    {
+      "source": "synthetic",
+      "synthetic": true,
+      "clock": "virtual_monotonic",
+      "condition": "g1_control_recipe",
+      "policy": "raw",
+      "trials": 48,
+      "successes": 31,
+      "success_pct": 64.58333333333333,
+      "mean_duration_s": 9.50136625,
+      "failures": {
+        "grasp": 6,
+        "target_change": 4,
+        "timeout": 1,
+        "localization": 2,
+        "execution_deviation": 4
+      },
+      "interpretation": "Constructed fixture counts, not an estimate of policy capability."
+    },
+    {
+      "source": "synthetic",
+      "synthetic": true,
+      "clock": "virtual_monotonic",
+      "condition": "g1_control_recipe",
+      "policy": "smooth",
+      "trials": 48,
+      "successes": 32,
+      "success_pct": 66.66666666666667,
+      "mean_duration_s": 9.914437916666666,
+      "failures": {
+        "localization": 5,
+        "grasp": 4,
+        "execution_deviation": 4,
+        "timeout": 2,
+        "target_change": 1
+      },
+      "interpretation": "Constructed fixture counts, not an estimate of policy capability."
+    }
+  ],
+  "episodes": 192,
+  "drift_groups": [
+    {
+      "policy": "raw",
+      "eligible_trials": 40,
+      "mean_grasp_drift_cm": 2.4036999999999997
+    },
+    {
+      "policy": "smooth",
+      "eligible_trials": 39,
+      "mean_grasp_drift_cm": 2.354100076923077
+    },
+    {
+      "policy": "project",
+      "eligible_trials": 42,
+      "mean_grasp_drift_cm": 2.1836
+    },
+    {
+      "policy": "feedback",
+      "eligible_trials": 40,
+      "mean_grasp_drift_cm": 2.0981999250000003
+    }
+  ],
+  "interpretation": "31/48 and 36/48 are prescribed fictional counts. The repository's actual CEM evaluation remains 37/48 and 43/48."
+}

@@ -52,18 +52,24 @@ class Demo(BaseDemo):
             self.episode_count = self.success_count = 0
             self.reset()
         elif action == "train" and self.train_process is None:
+            import uuid
             self.paused = True
-            self.train_log = (ROOT/"evaluation-live.log").open("w", encoding="utf-8")
+            project_root = ROOT.parent.parent
+            self.evaluation_dir = project_root / "artifacts" / "evaluations" / uuid.uuid4().hex[:12]
+            self.evaluation_dir.parent.mkdir(parents=True, exist_ok=True)
+            self.train_log = self.evaluation_dir.with_suffix(".log").open("x", encoding="utf-8")
+            self.progress = {"done": 0, "total": 192}
             flags = subprocess.CREATE_NO_WINDOW | subprocess.BELOW_NORMAL_PRIORITY_CLASS if os.name == "nt" else 0
-            self.train_process = subprocess.Popen([sys.executable, str(ROOT/"evaluate.py")], stdout=self.train_log,
-                     stderr=subprocess.STDOUT, cwd=ROOT, creationflags=flags)
+            self.train_process = subprocess.Popen([sys.executable, "-m", "benchmark.runner", "--output-dir", str(self.evaluation_dir)], stdout=self.train_log,
+                     stderr=subprocess.STDOUT, cwd=project_root, creationflags=flags)
         else:
             super().action(action)
 
     def status(self, now):
         if self.train_process is not None:
             try:
-                self.progress = json.loads((ROOT/"results"/"progress.json").read_text(encoding="utf-8"))
+                with (self.evaluation_dir / "episodes.jsonl").open(encoding="utf-8") as stream:
+                    self.progress = {"done": sum(1 for line in stream if line.strip()), "total": 192}
             except (OSError, ValueError):
                 pass
             code = self.train_process.poll()
@@ -71,7 +77,7 @@ class Demo(BaseDemo):
                 self.train_process = None
                 self.train_log.close()
                 self.train_log = None
-                self.train_feedback = "192 rollouts complete: see results" if code == 0 else "Evaluation failed: see evaluation-live.log"
+                self.train_feedback = "192 rollouts complete: artifacts/evaluations" if code == 0 else "Evaluation failed: artifacts/evaluations/*.log"
         super().status(now)
 
     def training_lines(self):

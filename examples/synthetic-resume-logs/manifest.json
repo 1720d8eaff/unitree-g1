@@ -1,0 +1,26 @@
+{
+  "source": "synthetic",
+  "synthetic": true,
+  "clock": "virtual_monotonic",
+  "schema_version": 1,
+  "suite": "g1",
+  "seed": 20261019,
+  "disclaimer": "模拟数据：按简历目标构造的日志示例；未执行真机、GR00T/SmolVLA推理或对应训练，不能作为实验成果。",
+  "generator_sha256": "a4d2ac990dda870fc7bad9c4aab8886e53e8ff83059cfa9bfe13fd425acdcc21",
+  "reproduction_command": "python scripts/generate_synthetic_logs.py --suite g1 --seed 20261019 --output-dir NEW_DIRECTORY",
+  "outcome_selection": "Rank correlated fictional difficulty scores and select a prescribed number of successes; not inference outputs.",
+  "numeric_scope": "Counts are integers. Fractions and durations derive from records. Selected means and counts are calibrated by construction.",
+  "files": {
+    "trials.jsonl": {
+      "records": 192,
+      "sha256": "dc4abe3e55f56e4807ec3c81feae22bb6a6452921780aba39f61badff53b3ac7"
+    },
+    "phase_events.jsonl": {
+      "records": 1189,
+      "sha256": "1833e7997b5d27d9a72849a877e4e3dfb7231a6b475aa1f042e03bd5011d79c1"
+    }
+  },
+  "summary_sha256": "db934dc5353f209da1c9d9703d8993b8c606395f3cada44092d5bd7830afd55f",
+  "source_data_used": [],
+  "historical_evidence": false
+}

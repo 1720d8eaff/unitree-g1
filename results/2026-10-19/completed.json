@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "episodes": 192,
+  "artifacts_sha256": {
+    "manifest.json": "40c4772947e44ca02b5e827a163d10df45c4e5ce999cca49b8ff8f6f0f241e7f",
+    "episodes.jsonl": "0afe2d42d33065064ab832724ea72764d81f492a34d5ee365ce6641ab6e19892",
+    "summary.json": "4b8f4a13794556e475eb673f58bc55a2b7cb3cc2654337fbc236311eac396d25"
+  }
+}
