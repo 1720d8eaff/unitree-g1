@@ -1,0 +1,13 @@
+{
+  "source": "synthetic",
+  "synthetic": true,
+  "notice": "Synthetic results demonstrate software only; no trained model or real robot was evaluated.",
+  "planned_episodes": 220,
+  "accepted_episodes": 174,
+  "rejected_episodes": 46,
+  "total_frames": 4832,
+  "seed": 20261019,
+  "real_robot_data": false,
+  "lerobot_dataset": false,
+  "rgb_content": "random pixels; no scene or camera calibration"
+}

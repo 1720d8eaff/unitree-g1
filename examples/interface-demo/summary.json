@@ -1,0 +1,12 @@
+{
+  "source": "synthetic",
+  "synthetic": true,
+  "notice": "Synthetic results demonstrate software only; no trained model or real robot was evaluated.",
+  "seed": 20261019,
+  "control_ticks": 75,
+  "virtual_duration_s": 1.48,
+  "real_robot": false,
+  "gr00t_weights_loaded": false,
+  "task_success_measured": false,
+  "control_trace_sha256": "8157c499a73a2c1d48f31df7da939f667d17d52b4d67716c38aa3c8a521e9911"
+}

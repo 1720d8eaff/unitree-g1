@@ -2,7 +2,11 @@
 
 基于 MuJoCo 的 G1 固定站姿双臂搬箱与目标放置仿真。包含 **14DoF 双臂、接触物理、SE(3) 双手协同投影、阶段门控、带延迟的物体位置反馈、192 次配对评估**，以及可运行的 30FPS 原生演示窗口。
 
-当前动作源为 **CEM 搜索得到的轨迹代理**，用于验证控制与执行层；本仓库没有加载 GR00T 权重，也没有包含真机控制器、真机数据或已训练 VLA checkpoint。
+默认归档评测的动作源为 **CEM 搜索得到的轨迹代理**，用于验证控制与执行层；归档结果没有加载 GR00T 权重，也没有真机数据或已训练 VLA checkpoint。
+
+新增可选 [GR00T / SDK2 接口](docs/deployment-interfaces.md)：本地/远程 GR00T、自定义模态校验、模型动作驱动的 MuJoCo 入口、G1 29DoF 的 SDK2 arm_sdk 传输及独立看门狗。离线接口和模拟链路已提供测试；真实 GR00T 权重与 SDK2 硬件尚未验证，新增接口不改变下方归档结果。
+
+已提交的新增演示：[174份独立合成episode](examples/synthetic-collection/README.md)、[内存控制接口](examples/interface-demo/README.md)、[合成策略驱动的MuJoCo冒烟运行](examples/synthetic-policy-smoke/README.md)。这些演示未使用GR00T权重或真机，不能当成历史实验成果。
 
 **科研复核入口：** [192次实验逐项复盘](docs/evaluation-evidence.md)、[简历证据核对](docs/resume-alignment.md)、[2026-10-19完整重跑](results/2026-10-19/summary.json)。新增严格审计和完整成功判定遥测；命令行和 F7 评测均写入新目录。
 

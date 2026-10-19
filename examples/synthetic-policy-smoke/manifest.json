@@ -1,0 +1,12 @@
+{
+  "status": "planned",
+  "seed": 20261019,
+  "observation_source": "physics_simulation",
+  "policy_source": "synthetic",
+  "synthetic": true,
+  "real_robot": false,
+  "model_id": "none: deterministic software fixture",
+  "requested_duration_sim_s": 12.0,
+  "project": false,
+  "inference_blocks_simulation": true
+}

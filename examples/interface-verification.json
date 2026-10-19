@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "python_tests_passed": 33,
+  "gr00t_weights_executed": false,
+  "smolvla_weights_executed": false,
+  "sdk2_hardware_tested": false,
+  "ros2_full_node_built": false,
+  "scope": "Local interface and synthetic-data verification; not historical robot experiments.",
+  "archived_files_byte_identical": 222,
+  "synthetic_accepted_episodes": 174,
+  "synthetic_total_frames": 4832
+}
